@@ -38,4 +38,21 @@ div.box-title div.buttons-box {
     width: 20%;
 }
 
-
+.button {
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 10px 0;
+    line-height: 28px;
+    border: 2px solid #cf1717;
+    color: #cf1717;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 3px #0000003f;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: color .5s;
+}
