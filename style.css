@@ -105,3 +105,15 @@ div.box-title div.buttons-box {
 .button.b3:hover::before {
     width: 102%;
 }
+
+/* fourth button */
+.button.b4::before {
+    border-radius: 0 0 55% 55%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.button.b4:hover::before {
+    height: 190%;
+}
