@@ -93,3 +93,15 @@ div.box-title div.buttons-box {
 .button.b2:hover::before {
     height: 100%;
 }
+
+/* third button */
+.button.b3::before {
+    width: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button.b3:hover::before {
+    width: 102%;
+}
